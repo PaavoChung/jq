@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        *{ margin: 0; padding: 0; list-style: none;}
+        .all{width: 600px; border: 1px solid #000; margin: 100px auto;padding: 10px; }
+        textarea{width: 460px; resize: none;}
+        ul{ width: 460px; margin-left: 80px;}
+        ul li{ border-bottom: 1px dashed #ccc;}
+    </style>
+    <script src="jquery-1.7.2.min.js"></script>
+    <script>
+        $(function () {
+          $('button').click(function () {       //点击button
+
+              if($('textarea').attr('value')==''){      //判断如果文本框里面的内容为空的时候
+                  alert('请输入内容')                    //就弹窗提醒请输入内容
+              }else{
+                  var user=$('textarea').attr('value')      //把文本框里面的内容赋值给user
+                  var tag=$('<li>'+user+'</li>')            // 把这个节点（就是文本框里面的内容写在li里面输出）赋值给tag
+                  $('ul').prepend(tag)          //在ul前面插入这个li
+                  //清空文本域
+                  $('textarea').attr('value','')    //清空文本框里面的内容
+                  //小效果
+                  $('ul li:first').hide().slideDown(500)        //向下滑动显示
+              }
+          })
+        })
+
+    </script>
+
+</head>
+<body>
+<div class="all">
+<span>微博内容:</span>
+<textarea name="" id="" cols="30" rows="10"></textarea>
+<button>发布</button>
+<ul></ul>
+</div>
+</body>
+</html>

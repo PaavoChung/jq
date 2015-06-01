@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="jquery-1.7.2.min.js"></script>
+    <script>
+        $(function () {
+            $('button').click(function () {         //点击button
+                //需要获取到文本框的内容
+                var user=$('input').attr('value')
+                //alert(user)   //测试
+                var tag=$('<li>'+user+'</li>')
+                //$('ul').append(tag)  //内部插入函数，插入到指定元素的内部
+                $('ul').prepend(tag)   //插入到指定元素的前面（后面是append）
+            })
+        })
+    </script>
+</head>
+<body>
+新闻发布：<input type="text" name="" id="" value="123"/>
+<button>发布新闻</button>
+<ul></ul>
+</body>
+</html>

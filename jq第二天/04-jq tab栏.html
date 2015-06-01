@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+        div, span, ul, li, h2, body { padding: 0; margin: 0; list-style: none; }
+        .all { width: 440px; border: 1px solid #000; padding: 10px; margin: 80px auto; }
+        .all h2 { height: 30px; text-align: center; }
+        .all h2 span { display: inline-block; width: 100px; height: 30px; background: #CCC; text-align: center; cursor: pointer; }
+        .all h2 span.current { background: #FF3366; }
+        .all ul li { display: none; background: #FF3366; height: 200px; }
+        .all ul li.current { display: block }
+    </style>
+
+    <script src="jquery-1.7.2.min.js"></script>
+    <script>
+        $(function(){
+            $('.all span').mouseover(function(){        //鼠标在all span 上面的时候
+                $(this).attr('class','current').siblings().attr('class','')     //修改当前的类名为current，同时修改兄弟们的类名都为空
+                var num =$(this).index()                //把当前点击的索引值赋值给num
+                $('.all li').eq(num).show().siblings().hide()       //点击哪个，兄弟们都隐藏起来
+
+            })
+
+        })
+    </script>
+</head>
+<body>
+<div id="box" class="all">
+    <h2> <span class="current">新闻</span> <span>娱乐</span> <span>游戏</span> <span>财经</span> </h2>
+    <!-----------------------------上面是标题部分-----------下面是内容部分------------------------>
+    <ul>
+        <li class="current">新闻</li>
+        <li>娱乐</li>
+        <li>游戏</li>
+        <li>财经</li>
+    </ul>
+</div>
+
+</body>
+</html>

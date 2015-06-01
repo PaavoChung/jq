@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        *{margin: 0;padding: 0; list-style: none;}
+        .all{width: 1200px; height: 300px; margin: 100px auto;border: 1px solid #000000; overflow: hidden;}
+        .all ul{width: 9999px;}
+        .all li{ float: left; width: 200px; overflow: hidden; cursor: pointer;}
+    </style>
+    <script src="../jquery-1.7.2.min.js"></script>
+    <script>
+        $(function () {
+            $('.all li').hover(function () {        //鼠标滑过
+                $(this).stop().animate({width:500},500).siblings().stop().animate({width:140},500)      //动画（当前鼠标指针的图片宽度变大，兄弟们的宽度就变小）
+            }, function () {        //鼠标经过（hover）的另一个函数
+                $('.all li').stop().animate({width:200},500)    //鼠标不在图片上直接还原为原来宽度
+            })
+        })
+    </script>
+</head>
+<body>
+<div class="all">
+    <ul>
+        <li><img src="img/01.jpg"  width="500" height="300"></li>
+        <li><img src="img/02.jpg"  width="500" height="300"></li>
+        <li><img src="img/03.jpg"  width="500" height="300"></li>
+        <li><img src="img/04.jpg"  width="500" height="300"></li>
+        <li><img src="img/05.jpg"  width="500" height="300"></li>
+        <li><img src="img/06.jpg"  width="500" height="300"></li>
+    </ul>
+</div>
+</body>
+</html>

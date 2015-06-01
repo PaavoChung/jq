@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        *{margin:0;padding:0; list-style:none; }
+        .all{width:600px; padding:10px; border: 1px solid #000; margin:100px auto; text-align:center;}
+        .all ul{overflow:hidden;}
+        .all li{width:200px;height:30px; float:left;}
+        .all p{border: 1px solid #000; width:200px; margin:0 auto; cursor:pointer;}
+    </style>
+    <script src="jquery-1.7.2.min.js"></script>
+    <script>
+        $(function(){
+            $('.all li:gt(2):not(:last)').hide(); //选择要隐藏的东西
+            $('.all p').click(function () {         //点击all p
+                $('.all li:gt(2):not(:last)').slideToggle(500)      //之前隐藏的东西的显示动画效果
+                if($(this).html()=='显示所有内容'){     //if来判断
+                    $(this).html('隐藏所有内容')          //改p的内容
+                }else{
+                    $(this).html('显示所有内容')          //改p的内容
+                }
+            })
+        })
+    </script>
+</head>
+<body>
+<div class="all">
+    <ul>
+        <li>佳能</li>
+        <li>索尼</li>
+        <li>三星</li>
+        <li>尼康</li>
+        <li>松下</li>
+        <li>卡西欧</li>
+        <li>富士</li>
+        <li>可达</li>
+        <li>宾得</li>
+        <li>理光</li>
+        <li>奥林巴斯</li>
+        <li>明基</li>
+        <li>显示其他品牌</li>
+    </ul>
+    <p>显示所有内容</p>
+</div>
+</body>
+</html>

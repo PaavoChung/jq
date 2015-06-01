@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<style>
+*{ border:none;}
+</style>
+<script src="jquery-1.7.2.min.js"></script>
+<script>
+	$(function(){
+		$('button').click(function(e) {
+            $(this).css('background','red').siblings().css('background','#ccc') // 自己变红色，兄弟换成灰色	（链式写法）
+			// <!--$(this).siblings().css('background','#ccc') //兄弟不包括自己-->
+        });	
+	})
+</script>
+
+</head>
+
+<body>
+<button>按钮</button>
+<button>按钮</button>
+<button>按钮</button>
+<button>按钮</button>
+<button>按钮</button>
+</body>
+</html>

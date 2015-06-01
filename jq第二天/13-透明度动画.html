@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="jquery-1.7.2.min.js"></script>
+    <script>
+        $(function () {
+            $('button:eq(0)').click(function () {
+               $('img').fadeOut(1000)       //出去透明
+            })
+            $('button:eq(1)').click(function () {
+                $('img').fadeIn(1000)       //进来透明
+            })
+            $('button:eq(2)').click(function () {
+                $('img').fadeToggle(1000)          //透明度切换
+            })
+            $('button:eq(3)').click(function () {
+                $('img').fadeTo(1000,0.5)  //透明度设置
+            })
+        })
+
+    </script>
+</head>
+<body>
+<button>出去</button>
+<button>进来</button>
+<button>切换</button>
+<button>透明度</button><br>
+<img src="img/JohnResig.jpg" alt=""/>
+</body>
+</html>

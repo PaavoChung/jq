@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        *{margin: 0;padding: 0;list-style: none;border: 0 none;}
+        div{position: absolute; border: 1px solid #ccc;}
+        ul{margin: 100px;}
+        ul li{float: left; border: 1px solid #ccc;margin-right: 20px;}
+        ul li img{display: block;}
+    </style>
+    <script src="../jquery-1.7.2.min.js"></script>
+    <script>
+        $(function () {
+            $('ul li').mouseover(function (e) {        //鼠标经过的全部效果
+                var huode=$(this).children('a').attr('href')       //自动获取图片 把它赋值给huode
+                var tag=$('<div><img src="'+huode+'" width="400" height="300" alt=""/></div>')
+                $('body').append(tag)       //创建一个节点（div）在body的后面，可自行更改
+                $('div').hide().show(500)   //动画效果，先隐藏再显示
+            }).mousemove(function (e) {     //鼠标移动
+                var mx= e.pageX         //获取  X Y 的坐标轴
+                var my= e.pageY
+                $('div').css({left:mx+10,top:my+10})        //更改div的css
+            }).mouseout(function () {       //鼠标离开
+                $('div').remove()           //删除全部div
+            })
+        })
+    </script>
+</head>
+<body>
+<ul>
+    <li><a href="img/apple_3_bigger.jpg"><img src="img/apple_3.jpg" width="100" height="75" alt=""/></a></li>
+    <li><a href="img/apple_4_bigger.jpg"><img src="img/apple_4.jpg" width="100" height="75" alt=""/></a></li>
+    <li><a href="img/apple_3_bigger.jpg"><img src="img/apple_3.jpg" width="100" height="75" alt=""/></a></li>
+    <li><a href="img/apple_4_bigger.jpg"><img src="img/apple_4.jpg" width="100" height="75" alt=""/></a></li>
+    <li><a href="img/apple_3_bigger.jpg"><img src="img/apple_3.jpg" width="100" height="75" alt=""/></a></li>
+    <li><a href="img/apple_4_bigger.jpg"><img src="img/apple_4.jpg" width="100" height="75" alt=""/></a></li>
+</ul>
+
+</body>
+</html>

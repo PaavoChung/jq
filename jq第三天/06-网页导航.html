@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        *{margin: 0; padding: 0; list-style: none;}
+        body{background: #f5f5f5;}
+        .all{width: 752px; height: 270px; margin: 100px auto; border: 1px solid #ccc; padding: 10px 0 0 10px;}
+        .all li{ float: left; margin: 0 10px 10px 0; height: 125px; width: 178px; position: relative; cursor: pointer; overflow: hidden;}
+        .all li p,.all li div{width:178px; height:24px;position: absolute; left: 0; bottom: -24px;}
+        .all li p{ background:url(img/nav/bg.png) no-repeat 0 0; color: #fff;font-size:14px ; text-align: center;line-height: 24px;}
+        .all li div{ background: #000;}
+    </style>
+    <script src="../jquery-1.7.2.min.js"></script>
+    <script>
+        $(function () {
+            $('.all div').fadeTo(0,0.6)   //一加载div就直接半透明
+            $('.all p').each(function (index,element) {
+                var num=index*-24       //动态获取坐标=索引值*（-24）
+                $(element).css('background-position','0 '+num+'px')
+            })
+             $('.all li').hover(function () {    //鼠标划过显示下面的内容
+                $(this).children('p,div').stop().animate({bottom:0},200)    //鼠标移上去显示
+            }, function () {
+                // $(this).children('p,div').stop().animate({bottom:-24},200)     //鼠标移走隐藏
+
+                 $('.all li p,.all li div').stop().animate({bottom:-24},200)
+             })
+        })
+    </script>
+</head>
+<body>
+<div class="all">
+    <ul>
+        <li><img src="img/nav/01.JPG" width="178" height="125" alt=""/>
+            <div></div>
+            <p>百度一下，你就知道</p>
+        </li>
+        <li><img src="img/nav/02.JPG" width="178" height="125" alt=""/>
+            <div></div>
+            <p>百度一下，你就知道</p>
+        </li>
+        <li><img src="img/nav/03.JPG" width="178" height="125" alt=""/>
+            <div></div>
+            <p>百度一下，你就知道</p>
+        </li>
+        <li><img src="img/nav/04.JPG" width="178" height="125" alt=""/>
+            <div></div>
+            <p>百度一下，你就知道</p>
+        </li>
+        <li><img src="img/nav/05.JPG" width="178" height="125" alt=""/>
+            <div></div>
+            <p>百度一下，你就知道</p>
+        </li>
+        <li><img src="img/nav/06.JPG" width="178" height="125" alt=""/>
+            <div></div>
+            <p>百度一下，你就知道</p>
+        </li>
+        <li><img src="img/nav/07.JPG" width="178" height="125" alt=""/>
+            <div></div>
+            <p>百度一下，你就知道</p>
+        </li>
+        <li><img src="img/nav/08.JPG" width="178" height="125" alt=""/>
+            <div></div>
+            <p>百度一下，你就知道</p>
+        </li>
+    </ul>
+</div>
+</body>
+</html>

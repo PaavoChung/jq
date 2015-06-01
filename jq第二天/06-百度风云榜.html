@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        *{ margin: 0; padding: 0; list-style: none;}
+        .nav{width: 100px; background: #06f; border: 1px solid #000; margin: 50px; padding: 5px; color: #fff; line-height: 24px;}
+        .nav ul span{ padding-left: 20px; background: url("img/open.gif") no-repeat 0 50%; cursor: pointer;}
+        .nav .current span{ padding-left: 20px; background: url("img/close.gif") no-repeat 0 50%; cursor: pointer;}
+        .nav ul ul{display:block; padding-left: 20px; cursor: pointer;}
+        .nav  .current ul{display: none; padding-left: 20px; cursor: pointer;}
+    </style>
+    <script src="jquery-1.7.2.min.js"></script>
+    <script>
+        $(function (){
+            $('.nav span').click(function () {      //点击nav span
+               $(this).parent().removeClass().siblings().addClass('current')        //点击时，它的父母删除类名，而它的兄弟们就更改类名为current
+            })
+        })
+    </script>
+</head>
+<body>
+    <div class="nav">
+        <ul>
+            <li class="current"><span>事件</span>
+                <ul>
+                    <li>今日大事件</li>
+                    <li>上周大事件</li>
+                    <li>上月大事件</li>
+                </ul>
+            </li>
+            <li  class="current"><span>八卦</span>
+                <ul>
+                    <li>明星</li>
+                    <li>综艺</li>
+                    <li>电影</li>
+                </ul>
+            </li>
+            <li  class="current"><span>人物</span>
+                <ul>
+                    <li>马化腾</li>
+                    <li>马云</li>
+                    <li>李开复</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>

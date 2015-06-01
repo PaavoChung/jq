@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>你是猪么</title>
+
+    <script src="../jquery-1.7.2.min.js"></script>
+    <script>
+        $(function(){
+            $('button:eq(0)').click(function(e) {       //eq（）是获取索引值，点击事件
+                $('div').css('width','200px')       //修改div的css属性
+                $('div').css('height','200px')
+                $('div').css('background','red')
+            });
+            $('button:eq(1)').click(function(e) {   //eq（1）表示第二个按钮，点击
+                alert($('div').css('width'))        //弹窗显示div的宽
+            });
+        })
+    </script>
+</head>
+
+<body>
+<button>修改</button>
+<button>访问</button>
+<div>盒子</div>
+</body>
+</html>
