@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        *{ margin: 0; padding: 0; list-style: none;}
+        .banner{width:490px; height: 170px; border: 1px solid #ccc;padding: 5px; margin: 100px auto;position: relative;cursor: pointer; }
+        .banner div{ position: relative;width:490px; height: 170px; overflow: hidden;}
+        .banner ul{position: absolute; left: 0;top: 0;}
+        .banner img{ display: block;}
+        .banner ol{ position: absolute;right: 10px; bottom: 10px;}
+        .banner ol li{width: 20px; height: 20px; float: left; margin-left: 5px; text-align: center; line-height: 20px; border: 1px solid #ccc;  color: #fff; cursor: pointer;}
+        .banner ol .current{background: #FF3366;}
+    </style>
+    <script src="jquery-1.7.2.min.js"></script>
+    <script>
+        $(function () {
+            $('.banner ol li').mouseenter(function () {         //鼠标进入
+                $(this).addClass('current').siblings().removeClass()        //就更改鼠标当前的类名为current，同时兄弟们删除类名
+               var index= $(this).index()   //鼠标当前的索引值赋值给index
+                var shu=index*-170      //设置一个动态数字（top要用）索引值乘以-170
+                $('.banner ul').stop().animate({ top:shu},500)      //动画效果（top的数值根据情况变化）
+                num=index;      //为了防止bug（鼠标在当前图片的时候，鼠标离开的时候可以正常滚动下一张图片）
+            })
+            var num=0;      //设置默认值为0
+            var timer=null;     //设置默认计数器为空
+            function autorun () {   //自动运行的方法
+                num++       //设置自动加1
+                if(num>4){  //判断如果大于4就直接设置为0
+                    num=0
+                }
+                $('.banner ol li').eq(num).addClass('current').siblings().removeClass()     //这个li获取当前的索引值，然后更改类名为current，兄弟们就删除类名
+                $('.banner ul').stop().animate({ top:num*-170},500)         //设置ul的坐标（动态设置，时间为500毫秒）
+            }
+            timer=setInterval(autorun,1000)         //定时器，调用上面的方法
+
+            $('.banner').hover(function () {    //鼠标经过banner的时候
+                clearInterval(timer)        //清除定时器
+
+            }, function () {        //鼠标离开banner的时候
+                clearInterval(timer)        //清除定时器again
+                timer=setInterval(autorun,1000)     //继续运行定时器   循环    the end
+            })
+        })
+    </script>
+</head>
+<body>
+<div class="banner">
+    <div>
+    <ul>
+        <li><img src="img/taobao/01.jpg" width="490" height="170" alt=""/></li>
+        <li><img src="img/taobao/02.jpg" width="490" height="170" alt=""/></li>
+        <li><img src="img/taobao/03.jpg" width="490" height="170" alt=""/></li>
+        <li><img src="img/taobao/04.jpg" width="490" height="170" alt=""/></li>
+        <li><img src="img/taobao/05.jpg" width="490" height="170" alt=""/></li>
+    </ul>
+    </div>
+    <ol>
+        <li class="current">1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+    </ol>
+</div>
+</body>
+</html>

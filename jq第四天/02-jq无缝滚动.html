@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        *{ margin: 0;padding: 0; list-style: none;}
+
+        .all{ width: 600px; height: 200px; margin: 100px auto; border: 1px solid #000000;overflow: hidden; position: relative; background: #000;}
+        .all ul{ width: 9999px; position:absolute; left:0; top:0;}
+        .all ul li{ float: left; cursor: pointer;}
+    </style>
+    <script src="jquery-1.7.2.min.js"></script>
+    <script>
+        $(function () {
+            var num=0;      //设置默认的num为0
+            var timer=null;     //定时器为空
+            function go () {    //运行的方法名，后面调用（自定义函数）
+                num-=3      //每次加3
+                if(num<=-1200){     //当num小于等于1200 的时候
+                    num=0;      //直接设置num为0
+                }
+                $('.all ul').css({left:num})    //更改all下面的ul的css样式left为num（动态）-----动画效果，往左滚动
+            }
+            timer=setInterval(go,30)    //定时器，调用上面的go自定义函数
+            $('.all ul li').hover(function () {     //当鼠标经过的时候
+                clearInterval(timer)    //清除定时器
+                $(this).siblings().stop().fadeTo(500,0.5)       //他的兄弟们就设置透明度为0.5，时间为500毫秒
+            }, function () {        //鼠标离开的时候
+                clearInterval(timer)        //再清除一次定时器
+                timer=setInterval(go,30)    //运行一次定时器（同上）
+                $(this).siblings().stop().fadeTo(500,1)         //然后就把兄弟们的透明度设置为不透明
+
+            })
+        })
+    </script>
+</head>
+<body>
+    <div class="all">
+        <ul>
+            <li><img src="img/wufeng/01.jpg" width="300" height="200" alt=""/></li>
+            <li><img src="img/wufeng/02.jpg" width="300" height="200" alt=""/></li>
+            <li><img src="img/wufeng/03.jpg" width="300" height="200" alt=""/></li>
+            <li><img src="img/wufeng/04.jpg" width="300" height="200" alt=""/></li>
+            <li><img src="img/wufeng/01.jpg" width="300" height="200" alt=""/></li>
+            <li><img src="img/wufeng/02.jpg" width="300" height="200" alt=""/></li>
+
+        </ul>
+
+    </div>
+</body>
+</html>

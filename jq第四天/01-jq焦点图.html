@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        *{ margin: 0;padding: 0; list-style: none;}
+        .banner{width: 650px; height: 250px; margin: 100px auto; background: #f5f5f5; position: relative; cursor: pointer; overflow: hidden;}
+        .banner ul{ position: relative; z-index: 1;}
+        .banner ul li{position: absolute; top: 0;left: 0;}
+        .banner ol{ position: absolute; right: 10px; bottom: 10px; z-index: 2;}
+        .banner ol li{width: 20px; height: 20px; float: left; margin-left: 5px; text-align: center; line-height: 20px; border: 1px solid #ccc; background:#000000; color: #fff; cursor: pointer;}
+        .banner ol .current{width: 30px; height: 30px;border-color: #f60; color: #f40; line-height: 30px; margin-top: -10px;}
+
+    </style>
+    <script src="jquery-1.7.2.min.js"></script>
+    <script>
+        $(function () {
+            var myindex=1;      //定义默认的纵轴为1
+            $('.banner ol li').mouseenter(function () {     //鼠标进去（enter）的方法
+                myindex++       //设置每进去一次就+1
+                $(this).addClass('current').siblings().removeClass()        //当前鼠标指的那个类，更改类名为current，其他兄弟就删除类名
+                var index=$(this).index()       //赋值当前鼠标上面的索引值为动态值：index
+                $('.banner ul li').eq(index).css({'left':'650px','z-index':myindex}).animate({left:0},500)      //当鼠标在这个li上面的时候获取索引值，然后更改css样式（更改left的值和z-index的值必须比当前的z-index大1，动画效果）
+                num=index;      //这个num等于index是为了鼠标移上去的那个图片的时候，确保鼠标离开之后能切换接下来的一张图片
+            })
+
+            var num=4;  //因为默认显示的第五张图片，所以设置默认值为4
+            var timer=null;     //定时器
+            var speed= 2000;    //时间（2000毫秒）
+            function autorun(){ //自动滚动的方法
+                num++       //还是要自动 + 1
+                myindex++   //这个也要自动 + 1 ，不然图片的序号显示不出来
+                if(num>4){num=0}    //判断当前的索引值是不是大于4，是就自动归零
+                $('.banner ol li').eq(num).addClass('current').siblings().removeClass()     //这个li，获取当前的索引值，更改类名为current，其兄弟就删除类名。
+                $('.banner ul li').eq(num).css({ left:650,zIndex: myindex}).animate({left:0},500)       //ul 下面的li获取索引值，更改css样式为left=0，修改当前的纵轴为动态数（myindex）
+            }
+            timer=setInterval(autorun,speed)    //定时器运行 autorun为上面的定时器的函数方法名
+            $('.banner').hover(function () {    //鼠标经过的时候
+                clearInterval(timer)    //清除定时器
+            }, function () {        //鼠标离开的时候
+                clearInterval(timer)    //再清除一次定时器，防止出现问题
+                timer=setInterval(autorun,speed)    //再运行一次定时器
+            })
+
+
+        })
+    </script>
+</head>
+<body>
+<div class="banner">
+    <ul>
+        <li><img src="img/01.jpg" width="650" height="250" alt=""/></li>
+        <li><img src="img/02.jpg" width="650" height="250" alt=""/></li>
+        <li><img src="img/03.jpg" width="650" height="250" alt=""/></li>
+        <li><img src="img/04.jpg" width="650" height="250" alt=""/></li>
+        <li ><img src="img/05.jpg" width="650" height="250" alt=""/></li>
+    </ul>
+    <ol>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li class="current">5</li>
+    </ol>
+</div>
+</body>
+</html>

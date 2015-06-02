@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        body{ height: 2000px;}
+        div{ background: url("img/ad.jpg") no-repeat; width: 230px; height: 120px;position: fixed; right: 0; bottom: 0; display: none;}
+        button{float: right;}
+    </style>
+    <script src="jquery-1.7.2.min.js"></script>
+    <script>
+        $(function () {
+            $('div').slideDown(800).fadeOut().fadeIn()      //向上滑动出现，然后就渐出再渐入（一闪的效果）
+            $('button').click(function () {     //点击关闭这个按钮
+                $(this).parent().fadeOut(500)       //把父亲隐藏（渐出，500毫秒）
+            })
+        })
+    </script>
+</head>
+<body>
+<div><button>关闭</button></div>
+</body>
+</html>
