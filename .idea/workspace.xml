@@ -2,31 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf39496a-6cee-4bc9-be08-41d7cc5836e1" name="!changes.default.changelist.name!" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jq第四天/img/01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jq第四天/img/taobao/01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jq第四天/img/wufeng/01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jq第四天/img/02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jq第四天/img/taobao/02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jq第四天/img/wufeng/02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jq第四天/img/03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jq第四天/img/taobao/03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jq第四天/img/wufeng/03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jq第四天/img/04.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jq第四天/img/taobao/04.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jq第四天/img/wufeng/04.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jq第四天/img/05.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jq第四天/img/taobao/05.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jq第四天/img/ad.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jq第四天/01-jq焦点图.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jq第四天/02-jq无缝滚动.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jq第四天/03-右下角广告.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jq第四天/04-淘宝焦点图.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jq第四天/jquery-1.7.2.min.js" />
-      <change type="DELETED" beforePath="D:\传智\课程\代码\jq\jq第二天\老师\01-jq的排他.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\传智\课程\代码\jq\jq第二天\老师\10-悬浮小广告.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\传智\课程\代码\jq\jq第二天\老师\jquery-第01天-笔记.doc" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jq第一天/02-jq.html" afterPath="$PROJECT_DIR$/jq第一天/02-jq.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jq第五天/img/niao/00.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jq第五天/img/01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jq第五天/img/niao/01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jq第五天/img/02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jq第五天/img/niao/02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jq第五天/img/03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jq第五天/img/niao/03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jq第五天/img/04.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jq第五天/img/niao/04.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jq第五天/img/niao/05.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jq第五天/img/niao/06.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jq第五天/img/Top.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jq第五天/img/niao/arr.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jq第五天/01-自定义动画.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jq第五天/02-便捷修改函数.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jq第五天/03-获取窗口坐标.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jq第五天/04-悬浮对联广告.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jq第五天/05-设置窗口滚动值.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jq第五天/06-返回顶部.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jq第五天/07-个性导航.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jq第五天/08-定位跟随效果.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jq第五天/09-焦点图.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jq第四天/01-jq焦点图.html" afterPath="$PROJECT_DIR$/jq第四天/01-jq焦点图.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="jq.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -89,10 +88,28 @@
         <option value="$PROJECT_DIR$/jq第二天/11-微博发布.html" />
         <option value="$PROJECT_DIR$/jq第二天/12-修改节点.html" />
         <option value="$PROJECT_DIR$/jq第一天/02-jq.html" />
-        <option value="$PROJECT_DIR$/jq第四天/01-jq焦点图.html" />
         <option value="$PROJECT_DIR$/jq第四天/02-jq无缝滚动.html" />
         <option value="$PROJECT_DIR$/jq第四天/03-右下角广告.html" />
         <option value="$PROJECT_DIR$/jq第四天/04-淘宝焦点图.html" />
+        <option value="$PROJECT_DIR$/jq-第五天/01-自定义动画.html" />
+        <option value="$PROJECT_DIR$/jq-第五天/03-获取窗口坐标.html" />
+        <option value="$PROJECT_DIR$/jq-第五天/02-便捷修改函数.html" />
+        <option value="$PROJECT_DIR$/jq-第五天/04-悬浮对联广告.html" />
+        <option value="$PROJECT_DIR$/jq-第五天/05-设置窗口滚动值.html" />
+        <option value="$PROJECT_DIR$/jq-第五天/06-返回顶部.html" />
+        <option value="$PROJECT_DIR$/jq-第五天/07-个性导航.html" />
+        <option value="$PROJECT_DIR$/jq-第五天/08-定位跟随效果.html" />
+        <option value="$PROJECT_DIR$/jq第四天/01-jq焦点图.html" />
+        <option value="$PROJECT_DIR$/jq-第五天/09-焦点图.html" />
+        <option value="$PROJECT_DIR$/jq第五天/01-自定义动画.html" />
+        <option value="$PROJECT_DIR$/jq第五天/02-便捷修改函数.html" />
+        <option value="$PROJECT_DIR$/jq第五天/03-获取窗口坐标.html" />
+        <option value="$PROJECT_DIR$/jq第五天/04-悬浮对联广告.html" />
+        <option value="$PROJECT_DIR$/jq第五天/05-设置窗口滚动值.html" />
+        <option value="$PROJECT_DIR$/jq第五天/06-返回顶部.html" />
+        <option value="$PROJECT_DIR$/jq第五天/07-个性导航.html" />
+        <option value="$PROJECT_DIR$/jq第五天/08-定位跟随效果.html" />
+        <option value="$PROJECT_DIR$/jq第五天/09-焦点图.html" />
       </list>
     </option>
   </component>
@@ -157,6 +174,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -177,7 +195,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -196,11 +213,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\传智\课程\代码\jq\jq-第五天\img" />
+      <recent name="D:\传智\课程\代码\jq\jq-第五天" />
       <recent name="D:\传智\课程\代码\jq\jq第四天" />
       <recent name="D:\传智\课程\代码\jq\jq第三天\img\nav" />
       <recent name="D:\传智\课程\代码\jq\jq第三天\img" />
-      <recent name="D:\传智\课程\代码\jq\jq第二天\img" />
-      <recent name="C:\Users\Paavo\WebstormProjects\jq\jq第二天\img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\传智\课程\代码\jq\jq第二天\img" />
@@ -274,17 +291,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328594" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="变化" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14055637" sideWeight="0.49906543" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14784053" sideWeight="0.5009346" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14055637" sideWeight="0.49763033" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14055637" sideWeight="0.50236964" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -292,6 +308,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3987034" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328594" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -332,90 +349,6 @@
     </PATH>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jq第二天/11-微博发布.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="171" max-vertical-offset="912">
-          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jq第二天/12-修改节点.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="38" max-vertical-offset="570">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jq第二天/10-删除节点.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="570">
-          <caret line="17" column="13" selection-start-line="8" selection-start-column="3" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jq第二天/13-透明度动画.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="106" max-vertical-offset="703">
-          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jq第二天/14-突出显示.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="171" max-vertical-offset="798">
-          <caret line="27" column="26" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jq第二天/06-百度风云榜.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="95" max-vertical-offset="1045">
-          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jq第二天/05-jq 淘宝展示.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="171" max-vertical-offset="1007">
-          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jq第二天/05-jq 淘宝展示.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="1007">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jq第二天/02-jq下拉菜单.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="1159">
-          <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jq第二天/03-jq索引值.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="247" max-vertical-offset="1520">
-          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jq第二天/04-jq tab栏.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="168" max-vertical-offset="893">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jq第二天/02-jq下拉菜单.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="1159">
-          <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jq第二天/03-jq索引值.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="247" max-vertical-offset="1520">
@@ -465,27 +398,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jq第二天/img/01.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jq第三天/img/nav/01.JPG">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jq第三天/01-创建盒子.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.821428" vertical-offset="0" max-vertical-offset="532">
           <caret line="13" column="48" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jq第三天/04-鼠标事件对象.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39446366" vertical-offset="0" max-vertical-offset="578">
-          <caret line="12" column="58" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="58" />
         </state>
       </provider>
     </entry>
@@ -587,25 +503,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jq第四天/img/wufeng/01.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jq第三天/02-自定义动画.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47079647" vertical-offset="0" max-vertical-offset="565">
-          <caret line="14" column="146" selection-start-line="14" selection-start-column="146" selection-end-line="14" selection-end-column="146" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jq第三天/03-手风琴效果.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29911503" vertical-offset="154" max-vertical-offset="760">
-          <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jq第三天/05-图片跟随展示.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.17993079" vertical-offset="200" max-vertical-offset="893">
@@ -639,35 +536,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jq第四天/01-jq焦点图.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="855" max-vertical-offset="1387">
-          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jq第四天/03-右下角广告.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="551">
           <caret line="15" column="68" selection-start-line="15" selection-start-column="68" selection-end-line="15" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jq第四天/02-jq无缝滚动.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="268" max-vertical-offset="1083">
-          <caret line="41" column="83" selection-start-line="41" selection-start-column="83" selection-end-line="41" selection-end-column="83" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jq第四天/04-淘宝焦点图.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="798" max-vertical-offset="1387">
-          <caret line="42" column="77" selection-start-line="42" selection-start-column="77" selection-end-line="42" selection-end-column="77" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -675,7 +547,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.52595156" vertical-offset="57" max-vertical-offset="798">
           <caret line="19" column="79" selection-start-line="19" selection-start-column="79" selection-end-line="19" selection-end-column="79" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -683,7 +554,141 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.29584774" vertical-offset="0" max-vertical-offset="627">
           <caret line="9" column="45" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jq第三天/02-自定义动画.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.5" vertical-offset="0" max-vertical-offset="551">
+          <caret line="14" column="146" selection-start-line="14" selection-start-column="146" selection-end-line="14" selection-end-column="146" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jq第三天/03-手风琴效果.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.035714" vertical-offset="154" max-vertical-offset="760">
+          <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jq第三天/04-鼠标事件对象.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39446366" vertical-offset="0" max-vertical-offset="578">
+          <caret line="12" column="58" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jq第三天/img/nav/01.JPG">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jq第三天/img/01.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jq第三天/img/04.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jq第二天/img/01.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jq第四天/img/01.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jq第四天/img/wufeng/01.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jq第四天/01-jq焦点图.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.25" vertical-offset="395" max-vertical-offset="1406">
+          <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jq第四天/02-jq无缝滚动.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.982699" vertical-offset="211" max-vertical-offset="1083">
+          <caret line="41" column="83" selection-start-line="41" selection-start-column="83" selection-end-line="41" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jq第四天/04-淘宝焦点图.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.007079646" vertical-offset="794" max-vertical-offset="1387">
+          <caret line="42" column="77" selection-start-line="42" selection-start-column="77" selection-end-line="42" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jq第五天/01-自定义动画.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39446366" vertical-offset="0" max-vertical-offset="578">
+          <caret line="12" column="87" selection-start-line="12" selection-start-column="87" selection-end-line="12" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jq第五天/02-便捷修改函数.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.178572" vertical-offset="0" max-vertical-offset="608">
+          <caret line="15" column="73" selection-start-line="15" selection-start-column="73" selection-end-line="15" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jq第五天/03-获取窗口坐标.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.5" vertical-offset="0" max-vertical-offset="1520">
+          <caret line="14" column="81" selection-start-line="14" selection-start-column="81" selection-end-line="14" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jq第五天/04-悬浮对联广告.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.535714" vertical-offset="57" max-vertical-offset="2603">
+          <caret line="20" column="54" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jq第五天/05-设置窗口滚动值.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.75" vertical-offset="78" max-vertical-offset="684">
+          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jq第五天/06-返回顶部.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.214286" vertical-offset="57" max-vertical-offset="2603">
+          <caret line="21" column="76" selection-start-line="21" selection-start-column="76" selection-end-line="21" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jq第五天/07-个性导航.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.571428" vertical-offset="114" max-vertical-offset="1026">
+          <caret line="26" column="87" selection-start-line="26" selection-start-column="87" selection-end-line="26" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jq第五天/08-定位跟随效果.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.892858" vertical-offset="0" max-vertical-offset="1577">
+          <caret line="19" column="86" selection-start-line="19" selection-start-column="86" selection-end-line="19" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jq第五天/09-焦点图.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3699115" vertical-offset="513" max-vertical-offset="1957">
+          <caret line="38" column="87" selection-start-line="38" selection-start-column="87" selection-end-line="38" selection-end-column="87" />
         </state>
       </provider>
     </entry>

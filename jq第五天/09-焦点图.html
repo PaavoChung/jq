@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        *{ margin: 0;padding: 0; list-style: none;}
+        .banner{ width: 400px; height: 307px; border: 5px solid #ccc; margin: 100px auto; position: relative;}
+        .banner_in{width: 400px; height: 307px; position: relative;overflow: hidden;}
+        .banner ul{ width: 9999px; position:absolute; left:0;top:0;}
+        .banner ul li{ float: left;}
+        .banner ol{ position: absolute; bottom: -30px; left: 50%; margin-left: -67px;}
+        .banner ol li{width: 13px; height: 13px; background: url("img/niao/00.png") no-repeat 0 0;margin: 0 3px; float: left; cursor: pointer;}
+        .banner ol .current{ background-position: 0 bottom}
+        .banner span{ width: 52px; height: 52px; background: url("img/niao/arr.png") no-repeat; position: absolute; left: -21px;top:50%;margin-top:-26px; cursor: pointer;}
+        .banner .next{ right:-21px; left:auto;background-position:100% 0;}
+    </style>
+    <script src="../jquery-1.7.2.min.js"></script>
+    <script>
+        $(function () {
+            var num=0;
+            $('.banner ol li').click(function () {      //点击事件
+                $(this).addClass('current').siblings().removeClass()    //更改自己的类名，删除兄弟的类名（排他）
+                    var index=$(this).index()   //定义索引值
+                $('.banner ul').stop().animate({left:-400*index},500)       //把ul设置为向左滚动，根据当前点击的那个索引值来确定向左走多少
+                num=index;  //可以顺利显示下一个图片
+            })
+            $('.banner .next').click(function () {      //点击事件
+                num++   //运行一次就+1
+                if(num>5){num=0}    //判断如果大于5就设置为0
+                $('.banner ol li').eq(num).addClass('current').siblings().removeClass()     //排他
+                $('.banner ul').stop().animate({left:-400*num},500)     //点击下一个按钮的时候，图片跟着动起来
+            })
+
+            $('.banner .prev').click(function () {      //点击
+                num--       //运行一次就-1
+                if(num<0){num=5}    //判断小于0就设置为5
+                $('.banner ol li').eq(num).addClass('current').siblings().removeClass()     //排他
+                $('.banner ul').stop().animate({left:-400*num},500)     //点击上一个按钮，图片跟着动
+            })
+
+            // 自动播放模块，其实需要定时器               注意修改必须的参数
+            //var num=0;
+            var timer=null;
+            function autorun(){
+                num++
+                // 产生虚拟的索引值数据   0 1 2 3 4
+                if( num>5 ){ num=0 }
+                //$('title').html(num)
+                // 切换对应的角标还有banner图
+                $('.banner ol li').eq(num).addClass('current').siblings().removeClass()
+                $('.banner ul').stop().animate({ left: -400*num },500)
+
+            }
+            timer=setInterval(autorun,1000)			// 指令进行了分离
+            //停止自动播放，清除定时器；
+            $('.banner').hover(function(e) {
+                clearInterval(timer)
+            },function(){
+                clearInterval(timer)
+                timer=setInterval(autorun,1000)		// 指令进行了分离
+            });
+
+
+
+        })
+    </script>
+
+</head>
+<body>
+<div class="banner">
+    <div class="banner_in">
+        <ul>
+            <li><img src="img/niao/01.jpg" width="400" height="307" alt=""/></li>
+            <li><img src="img/niao/02.jpg" width="400" height="307" alt=""/></li>
+            <li><img src="img/niao/03.jpg" width="400" height="307" alt=""/></li>
+            <li><img src="img/niao/04.jpg" width="400" height="307" alt=""/></li>
+            <li><img src="img/niao/05.jpg" width="400" height="307" alt=""/></li>
+            <li><img src="img/niao/06.jpg" width="400" height="307" alt=""/></li>
+
+        </ul>
+    </div>
+
+    <span class="prev"></span>
+    <span class="next"></span>
+
+    <ol>
+        <li class="current"></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ol>
+
+</div>
+</body>
+</html>

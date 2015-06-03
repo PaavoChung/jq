@@ -35,6 +35,7 @@
                 $('.banner ol li').eq(num).addClass('current').siblings().removeClass()     //这个li，获取当前的索引值，更改类名为current，其兄弟就删除类名。
                 $('.banner ul li').eq(num).css({ left:650,zIndex: myindex}).animate({left:0},500)       //ul 下面的li获取索引值，更改css样式为left=0，修改当前的纵轴为动态数（myindex）
             }
+
             timer=setInterval(autorun,speed)    //定时器运行 autorun为上面的定时器的函数方法名
             $('.banner').hover(function () {    //鼠标经过的时候
                 clearInterval(timer)    //清除定时器

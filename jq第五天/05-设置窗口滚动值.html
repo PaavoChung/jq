@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        *{ margin: 0; padding: 0; list-style: none;}
+        img{ width: 100%; height: auto; display: block;}
+        button{ position: fixed; right: 100px; top: 100px;}
+    </style>
+    <script src="../jquery-1.7.2.min.js"></script>
+    <script>
+        $(function () {
+            var doc_h=$(document).height();     //获取文档的高度，赋值给doc_h
+            var win_h=$(window).height();       //获取浏览器窗口的高度
+            var zb=doc_h - win_h;           //相减获取坐标
+            $('button').click(function () {         //点击按钮
+                alert(zb)       //弹窗输出坐标
+               // $('html,body').stop().animate({scrollTop:win_h},500)
+            })
+        })
+    </script>
+</head>
+<body>
+<button>按钮</button>
+<img src="img/01.jpg" width="300" height="200" alt=""/>
+<img src="img/02.jpg" width="300" height="200" alt=""/>
+<img src="img/03.jpg" width="300" height="200" alt=""/>
+<img src="img/04.jpg" width="300" height="200" alt=""/>
+</body>
+</html>

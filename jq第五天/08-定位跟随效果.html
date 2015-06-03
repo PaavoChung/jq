@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        div{width:100px;height:100px;border:1px solid #000; margin:100px;}
+        div div{background:pink;margin:0;}
+
+    </style>
+    <script src="../jquery-1.7.2.min.js"></script>
+    <script>
+        $(function () {
+            var doc_top=$('div div').offset().top       //获取这个div的距离浏览器窗口顶部的高度
+            $(window).scroll(function () {          //滚动方法
+                var win_top=$(window).scrollTop();      //获取滚动条的高度
+                if(win_top>doc_top){        //判断如果滚动条高度小于
+                    $('div div').css({ position:'fixed',top:0})     //修改div的css样式，把它定死在那里
+                }else{
+                    $('div div').css({ position:'static'})      //否则，把它还原为默认属性。（static）
+                }
+            })
+        })
+    </script>
+</head>
+<body>
+<div></div>
+<div></div>
+<div style="padding: 20px;"><div></div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+</body>
+</html>
